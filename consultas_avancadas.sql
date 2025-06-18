@@ -1,22 +1,23 @@
 /*
-Exercicio
+Projeto Banco de Dados de um restaurante
 
 */
 create database restaurante;
-use restaurante;
+USE restaurante;
 
 /* Funcionarios */
+
 create table funcionarios(
-	id_funcionario INT AUTO_INCREMENT PRIMARY KEY,
+    id_funcionario INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     cpf VARCHAR(14) NOT NULL UNIQUE,
     data_nascimento DATE NOT NULL,
     endereco VARCHAR(255),
     telefone VARCHAR(15),
     email VARCHAR(100),
-	cargo VARCHAR(100),
-	salario DECIMAL(10,2) NOT NULL,
-	data_admissao  DATE NOT NULL
+    cargo VARCHAR(100),
+    salario DECIMAL(10,2) NOT NULL,
+    data_admissao  DATE NOT NULL
     
 );
 
@@ -60,7 +61,7 @@ CREATE TABLE pedidos (
     
     );
     
-    /* Informação dos produtos */
+/* Informação dos produtos */
 
 CREATE TABLE info_produtos (
     id_info INT AUTO_INCREMENT PRIMARY KEY,
@@ -224,7 +225,7 @@ INSERT INTO pedidos (id_cliente, id_funcionario, id_produto, quantidade, preco, 
 					(12, 4, 10, 1, 35.00, '2024-07-06', 'Concluído'),
 					(10, 4, 11, 3, 22.00, '2024-07-06', 'Pendente');
                     
-	-- testes select
+-- Testes select
 SELECT * FROM funcionarios;
 SELECT * FROM clientes;
 SELECT * FROM produtos;
