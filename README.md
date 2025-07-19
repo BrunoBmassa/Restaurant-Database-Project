@@ -32,8 +32,6 @@ Run the SQL queries provided in the repository to test tables and relationships.
 ## Structure
 restaurant_schema.sql → SQL script to create all tables and relationships
 
-sample_queries.sql → Example queries to test and interact with the database
-
 README.md → Project documentation
 
 ## Author
