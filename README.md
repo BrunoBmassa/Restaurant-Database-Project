@@ -34,6 +34,12 @@ restaurant_schema.sql → SQL script to create all tables and relationships
 
 README.md → Project documentation
 
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
 ## Author
 
 Bruno Brehmer Massaneiro
