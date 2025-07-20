@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="projeto_restaurante.png" alt="Restaurant Database Project" width="600"/>
+  <img src="restaurante.png" alt="Restaurant Database Project" width="600"/>
 </p>
 
 
