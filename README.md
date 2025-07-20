@@ -1,3 +1,5 @@
+![Restaurant Database Project](projeto_restaurante.png)
+
 ## Restaurant Database Project
 
 This project aims to design and implement a relational database for a restaurant, using logical and physical modeling principles. The structure was developed to efficiently manage orders, customers, dishes, employees, and general restaurant operations.
